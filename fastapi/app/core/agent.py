@@ -14,7 +14,7 @@ chat = ChatOpenAI(model="gpt-3.5-turbo-1106", temperature=0)
 prompt = ChatPromptTemplate.from_messages([
     ("system", """
     Asistente multifuncional con acceso a:
-    1. Base de datos MySQL: Consultas de datos estructurados.
+    1. Base de datos SQL Server: Consultas de datos estructurados.
     2. Vectorstore Qdrant: Búsquedas semánticas en documentos.
     3. Herramienta de creación de usuarios: Registro de nuevos usuarios.
 

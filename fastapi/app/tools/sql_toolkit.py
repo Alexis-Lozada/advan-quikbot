@@ -7,7 +7,7 @@ def get_sql_toolkit():
     sql_toolkit = SQLDatabaseToolkit(
         db=db,
         llm=ChatOpenAI(temperature=0),
-        database_name="Base de Datos MySQL",
-        description="Utiliza esta herramienta cuando necesites consultar datos estructurados almacenados en la base de datos MySQL."
+        database_name="Base de Datos SQL Server",
+        description="Utiliza esta herramienta cuando necesites consultar datos estructurados almacenados en la base de datos SQL Server."
     )
     return sql_toolkit.get_tools()
